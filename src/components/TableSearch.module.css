@@ -1,0 +1,12 @@
+.search {
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-style: italic;
+  position: relative;
+  left: 15%;
+  cursor: pointer;
+  border: 1px solid black;
+}

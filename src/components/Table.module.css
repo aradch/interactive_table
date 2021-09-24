@@ -1,0 +1,31 @@
+.container {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+.row:hover {
+  cursor: pointer;
+}
+.row th {
+  font-weight: bolder;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+  letter-spacing: 1px;
+}
+.row td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  text-align: center;
+}
+.row:hover > td {
+  background-color: whitesmoke;
+}
+.row td:first-child,
+.row th:first-child {
+  border-left: none;
+}
+.row td:last-child,
+.row th:last-child {
+  border-right: none;
+}

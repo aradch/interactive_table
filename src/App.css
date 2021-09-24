@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.nothingFound {
+  font-size: 160%;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
