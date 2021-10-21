@@ -32,3 +32,32 @@
 .pageNumber:hover {
   cursor: pointer;
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .paginator {
+    font-size: 45%;
+  }
+  .pageNumber {
+    padding: 2px 10px;
+  }
+  .btnPrev,
+  .btnNext {
+    font-size: 45%;
+    padding: 3px 10px;
+    vertical-align: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .paginator {
+    font-size: 55%;
+  }
+  .pageNumber {
+    padding: 1px 10px;
+  }
+  .btnPrev,
+  .btnNext {
+    font-size: 75%;
+    padding: 2px 10px;
+  }
+}

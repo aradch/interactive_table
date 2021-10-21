@@ -10,3 +10,27 @@
   cursor: pointer;
   border: 1px solid black;
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .search {
+    width: 30%;
+    font-size: 45%;
+    left: 0%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .search {
+    width: 27%;
+    font-size: 55%;
+    left: 2%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search {
+    width: 21%;
+    font-size: 75%;
+    left: 7%;
+  }
+}

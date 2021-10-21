@@ -29,3 +29,27 @@
 .row th:last-child {
   border-right: none;
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    font-size: 42%;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 95%;
+    font-size: 59%;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 85%;
+    font-size: 85%;
+    margin: 10px auto;
+  }
+}
